@@ -1,0 +1,18 @@
+﻿id,entType,name
+battery,Power,Battery
+solar,Power,Solar
+lorawan,Network,LoRaWAN
+sigfox,Network,SigFox
+nbiot,Network,NB-IoT
+gprs,Network,GPRS
+gps,Module,GPS
+temperature,Sensor,Temperature
+heat,Sensor,Heat
+vendor1,Vendor,Vendor-1
+vendor2,Vendor,Vendor-2
+vendor3,Vendor,Vendor-3
+libellium,Manufacturer,Libellium
+senra,Manufacturer,SenRa
+soilmoisture,Thingtype,Soil Moisture
+waterquality,Thingtype,Water Quality
+lightcontrol,Thingtype,Light Control
