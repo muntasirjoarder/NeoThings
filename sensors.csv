@@ -1,0 +1,4 @@
+id,entType,name
+temperature,Sensor,Temperature
+heat,Sensor,Heat
+infrared,,Infra Red

@@ -1,0 +1,5 @@
+id,entType,name
+lorawan,Network,LoRaWAN
+sigfox,Network,SigFox
+nbiot,Network,NB-IoT
+gprs,Network,GPRS
