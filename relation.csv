@@ -93,3 +93,4 @@ Thing03,IS_FEEDING_DATA_TO,application06,
 Thing04,IS_FEEDING_DATA_TO,application06,
 Thing07,IS_FEEDING_DATA_TO,application06,
 Thing08,IS_FEEDING_DATA_TO,application06,
+Thing08,IS_COMPOSED_OF_SENSOR,temperature,"{low: 4, high: 50}"
