@@ -1,24 +1,24 @@
 thingId,relationshipname,entityid,prop
-Thing01,IS_POWERED_BY,battery,"{ low: 10, high: 100, base: '122'}"
-Thing02,IS_POWERED_BY,solar,{}
-Thing03,IS_POWERED_BY,battery,{}
-Thing04,IS_POWERED_BY,battery,{}
-Thing05,IS_POWERED_BY,solar,{}
-Thing06,IS_POWERED_BY,solar,{}
-Thing07,IS_POWERED_BY,battery,{}
-Thing08,IS_POWERED_BY,battery,{}
-Thing09,IS_POWERED_BY,battery,{}
-Thing10,IS_POWERED_BY,battery,{}
-Thing11,IS_POWERED_BY,solar,{}
-Thing01,IS_USING,lorawan,{}
-Thing02,IS_USING,lorawan,{}
-Thing03,IS_USING,lorawan,{}
+Thing01,IS_POWERED_BY,battery,"{ lifestarts: 1456099200, lifefinish: 1758844800, installed: 1456099200 }"
+Thing02,IS_POWERED_BY,solar,"{ dateinstalled: 1451174400, expectedinspection: 1624233600 }"
+Thing03,IS_POWERED_BY,battery,"{ lifestarts: 1442275200, lifefinish: 1613865600, installed: 1442275200 }"
+Thing04,IS_POWERED_BY,battery,"{ lifestarts: 1510099200, installed: 1510099200, lifefinish:1667260800 }"
+Thing05,IS_POWERED_BY,solar,"{ dateinstalled:1498348800, expectedinspection: 1764979200 }"
+Thing06,IS_POWERED_BY,solar,"{ dateinstalled:1467072000, expectedinspection: 1692057600 }"
+Thing07,IS_POWERED_BY,battery,"{ lifestarts: 1540339200, installed: 1540339200, lifefinish:1647302400 }"
+Thing08,IS_POWERED_BY,battery,"{ lifestarts:1429660800, installed:1483660800, lifefinish: 1658880000 }"
+Thing09,IS_POWERED_BY,battery,"{ lifestarts: 1483660800, installed: 1483660800, lifefinish: 1675900800 }"
+Thing10,IS_POWERED_BY,battery,"{ lifestarts: 1509062400, installed: 1509062400, lifefinish:1687651200 }"
+Thing11,IS_POWERED_BY,solar,"{ dateinstalled:1420416000, expectedinspection: 1698969600 }"
+Thing01,IS_USING,lorawan,"{appid: ""ttn_appid_01"", devid: ""ttn_dev_id_01""}"
+Thing02,IS_USING,lorawan,"{appid: ""ttn_appid_02"", devid: ""ttn_dev_id_02""}"
+Thing03,IS_USING,lorawan,"{appid: ""ttn_appid_03"", devid: ""ttn_dev_id_02""}"
 Thing04,IS_USING,nbiot,{}
 Thing05,IS_USING,nbiot,{}
 Thing06,IS_USING,sigfox,{}
 Thing07,IS_USING,gprs,{}
-Thing08,IS_USING,lorawan,{}
-Thing09,IS_USING,lorawan,{}
+Thing08,IS_USING,lorawan,"{appid: ""ttn_appid_04"", devid: ""ttn_dev_id_02""}"
+Thing09,IS_USING,lorawan,"{appid: ""ttn_appid_05"", devid: ""ttn_dev_id_02""}"
 Thing10,IS_USING,sigfox,{}
 Thing11,IS_USING,sigfox,{}
 Thing01,IS_MANUFACTURED_BY,libellium,{}
@@ -59,14 +59,37 @@ Thing04,IS_EQUIPPED_WITH,gps,{}
 Thing05,IS_EQUIPPED_WITH,gps,{}
 Thing06,IS_EQUIPPED_WITH,gps,{}
 Thing07,IS_EQUIPPED_WITH,gps,{}
-Thing01,IS_COMPOSED_OF_SENSOR,temperature,{}
-Thing02,IS_COMPOSED_OF_SENSOR,heat,{}
-Thing03,IS_COMPOSED_OF_SENSOR,temperature,{}
-Thing04,IS_COMPOSED_OF_SENSOR,heat,{}
-Thing05,IS_COMPOSED_OF_SENSOR,heat,{}
-Thing06,IS_COMPOSED_OF_SENSOR,heat,{}
-Thing07,IS_COMPOSED_OF_SENSOR,heat,{}
-Thing08,IS_COMPOSED_OF_SENSOR,heat,{}
-Thing09,IS_COMPOSED_OF_SENSOR,heat,{}
-Thing10,IS_COMPOSED_OF_SENSOR,temperature,{}
-Thing11,IS_COMPOSED_OF_SENSOR,temperature,{}
+Thing01,IS_COMPOSED_OF_SENSOR,temperature,"{low: 10, high: 23}"
+Thing02,IS_COMPOSED_OF_SENSOR,heat,"{low: 12, high: 43}"
+Thing03,IS_COMPOSED_OF_SENSOR,temperature,"{low: 5, high: 23}"
+Thing04,IS_COMPOSED_OF_SENSOR,heat,"{low: 12, high: 23}"
+Thing05,IS_COMPOSED_OF_SENSOR,heat,"{low: 10, high: 32}"
+Thing06,IS_COMPOSED_OF_SENSOR,heat,"{low: 10, high: 32}"
+Thing07,IS_COMPOSED_OF_SENSOR,heat,"{low: 10, high: 43}"
+Thing08,IS_COMPOSED_OF_SENSOR,heat,"{low: 6, high: 13}"
+Thing09,IS_COMPOSED_OF_SENSOR,heat,"{low: 6, high: 13}"
+Thing10,IS_COMPOSED_OF_SENSOR,temperature,"{low: 6, high: 13}"
+Thing11,IS_COMPOSED_OF_SENSOR,temperature,"{low: 6, high: 13}"
+Thing03,IS_FEEDING_DATA_TO,application01,
+Thing04,IS_FEEDING_DATA_TO,application01,
+Thing07,IS_FEEDING_DATA_TO,application01,
+Thing08,IS_FEEDING_DATA_TO,application01,
+Thing09,IS_FEEDING_DATA_TO,application02,
+Thing05,IS_FEEDING_DATA_TO,application02,
+Thing09,IS_FEEDING_DATA_TO,application02,
+Thing02,IS_FEEDING_DATA_TO,application03,
+Thing06,IS_FEEDING_DATA_TO,application03,
+Thing10,IS_FEEDING_DATA_TO,application03,
+Thing11,IS_FEEDING_DATA_TO,application03,
+application03,IS_CONTROLLING,Thing02,
+application03,IS_CONTROLLING,Thing06,
+application03,IS_CONTROLLING,Thing10,
+application03,IS_CONTROLLING,Thing11,
+Thing03,IS_FEEDING_DATA_TO,application05,
+Thing04,IS_FEEDING_DATA_TO,application05,
+Thing07,IS_FEEDING_DATA_TO,application05,
+Thing08,IS_FEEDING_DATA_TO,application05,
+Thing03,IS_FEEDING_DATA_TO,application06,
+Thing04,IS_FEEDING_DATA_TO,application06,
+Thing07,IS_FEEDING_DATA_TO,application06,
+Thing08,IS_FEEDING_DATA_TO,application06,
