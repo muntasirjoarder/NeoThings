@@ -6,9 +6,9 @@ The reference IoT Data Model that we are going to implement in Neo4j is as follo
 
 Here, we have ten(10) types of **nodes**. They are:
 
-| Node | Description | Values |
-| -----| ----------- | ------ |
-| Thing | Thing is the actual IoT Device for which we are creating this data model | 11 Things configured. Thing01..Thing11 |
+| Node | Description | Values | Properties |
+| -----| ----------- | ------ | -----------|
+| Thing | Thing is the actual IoT Device for which we are creating this data model | 11 Things configured. Thing01..Thing11 | {id,name,lat,lon} |
 
 
 Also we have ten(10) edges (ie. Relationships). They are:
