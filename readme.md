@@ -3,19 +3,12 @@ Please check the article from [IoT Data Modeling in Neo4j Graph DB](https://emer
 
 The reference IoT Data Model that we are going to implement in Neo4j is as follows:
 ![IoT Data Model Graph Schema](https://emergingtechs.net/wp-content/uploads/2019/05/IoT-db-schema.png)
+
 Here, we have ten(10) types of **nodes**. They are:
 | Node | Description | Values | Properties |
-| ------ | ------ | ------ |------ | 
+| -----| ----------- | ------ |----------- | 
 | Thing | Thing is the actual IoT Device for which we are creating this data model | 11 Things configured. Thing01..Thing11 | {id,name,lat,lon} |
-| Power | Power source for the Thing. | Battery and Solar | {id, name} |
-| Thing Type | What type of Thing is it. | Soil Moisture, Water Quality, Light Control (NEMA 7-Pin) |{id, name} |
-| Module | Any extra module attached to it? | GPS |{id, name} |
-| Vendor | Vendor or Integrator for this Thing (ie in case of support and maintenance) | Vendor-1, Vendor-2 and Vendor-3 |{id, name} |
-| Manufacturer | Who manufactured this Thing | Libellium, SenRa |{id, name} |
-| Network | Which communication network this Thing is using | LoRaWAN, Sigfox, NB-IoT, GPRS |{id, name} |
-| Sensor | A Thing can be composed of multiple sensors | Temperature, Heat, Infra Red |{id, name} |
-| Application | These are the application which are using the Thing | Application-01, Dashboard-02, Mobile App-03, Mobile App-04, Application-05, Dashboard-06|{id, name} |
-| Department | Departments of the organization which are using/interacting with the Thing through Applications | Information Technology, Field Services, Water Management |{id, name} |
+
 
 Also we have ten(10) edges (ie. Relationships). They are:
 
