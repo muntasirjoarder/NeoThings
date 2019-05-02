@@ -4,7 +4,7 @@ Please check the article from [IoT Data Modeling in Neo4j Graph DB](https://emer
 The reference IoT Data Model that we are going to implement in Neo4j is as follows:
 ![IoT Data Model Graph Schema](https://emergingtechs.net/wp-content/uploads/2019/05/IoT-db-schema.png)
 Here, we have ten(10) types of **nodes**. They are:
-| Node | Description | Values | Properties
+| Node | Description | Values | Properties |
 | ------ | ------ | ------ |------ | 
 | Thing | Thing is the actual IoT Device for which we are creating this data model | 11 Things configured. Thing01..Thing11 | {id,name,lat,lon} |
 | Power | Power source for the Thing. | Battery and Solar | {id, name} |
