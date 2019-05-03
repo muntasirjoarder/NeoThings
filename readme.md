@@ -98,6 +98,7 @@ CALL apoc.create.relationship(from, rels.relationshipname,apoc.convert.fromJsonM
 RETURN count(*)
 ```
 18. **See how it looks**
+
 Execute
 ```sh
 MATCH (n) RETURN n
